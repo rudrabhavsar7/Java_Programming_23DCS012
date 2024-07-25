@@ -32,10 +32,10 @@ class complex
 
     void mul(complex cx)
     {
-        int sumr=r*cx.r;
-        int sumi=i*cx.i;
+        int sumr=(r*cx.r)-(i*cx.i);
+        int sumi=(r*cx.r)+(i*cx.i);
 
-        System.out.println("multiplication :" + sumr + "+" + sumi);
+        System.out.println("multiplication :" + sumr + "+" + sumi + "i");
     }
 }
 
@@ -49,7 +49,7 @@ public class prec16 {
         c2.getvalue();
         c1.add(c2);
         c1.sub(c2);
-
+        c1.mul(c2);
         
         
     }    
