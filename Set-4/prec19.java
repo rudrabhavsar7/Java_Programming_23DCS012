@@ -41,8 +41,6 @@ public class prec19 {
         Square s[] = new Square[5];
         Scanner scan = new Scanner(System.in);
 
-        
-
         int i, l, b;
         for (i = 0; i < 5; i++) {
             System.out.println("Enter Length For " + (i + 1) + " Reactangle : ");
@@ -57,7 +55,7 @@ public class prec19 {
 
             System.out.println("Enter Length For " + (i + 1) + " Square : ");
             l = scan.nextInt();
-            s[i]=new Square(l);
+            s[i] = new Square(l);
             s[i].area();
             s[i].parameter();
 
