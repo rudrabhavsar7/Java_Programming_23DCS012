@@ -5,15 +5,13 @@ class Test1 {
 }
 
 public class checkedexception {
-    public static void main(String[] args) {
-       try{
-        Class.forName("Test2");
-       }
-       catch(ClassNotFoundException e){
-        System.out.println(e.toString());
-       }
+    public static void main(String[] args) throws Exception {
+     
         Test1 t1 = new Test1();
         t1.display();
+        Class.forName("Test2");
+      
+      
     }
 
 }
