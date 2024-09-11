@@ -10,5 +10,4 @@ public class prec32_a {
         MyThread t1 = new MyThread();
         t1.start();
     }
-
 }
