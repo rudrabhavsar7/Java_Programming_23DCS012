@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class InsufficiantException extends Exception{
     InsufficiantException(String s)
