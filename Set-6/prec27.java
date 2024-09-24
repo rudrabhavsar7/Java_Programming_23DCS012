@@ -6,6 +6,12 @@ public class prec27 {
         int length = args.length;
         int count = 0;
 
+        if(args.length==0)
+        {
+            System.out.println("Specify Input");
+            
+        }
+
         for (int i = 0; i < length; i++) {
             
             String fname = args[i];
